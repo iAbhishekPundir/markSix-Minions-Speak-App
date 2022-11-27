@@ -12,12 +12,22 @@
 }
 
 /*navigation*/
+
+.navigation {
+    max-width: 90vw;
+    margin: auto;
+    
+}
+
 nav h1 {
     background-color: var(--primary-color);
     padding: 2rem;
     font-size: 2.5rem;
     text-align: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
+
 
 /* main div  */
 .main {
@@ -73,6 +83,10 @@ footer {
     background-color: var(--primary-color);
     padding: 1rem;
     font-size: large;
+    max-width: 90vw;
+    margin: auto;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 footer p {
